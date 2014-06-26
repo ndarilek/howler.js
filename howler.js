@@ -1411,7 +1411,7 @@
     /**
      * Load the sound back into the buffer source.
      * @param  {Object} obj   The sound to load.
-     * @param  {Array}  loop  Loop boolean, pos, and duration.
+     * @param  {Array}  loop  Loop boolean, offset, and duration.
      * @param  {String} id    (optional) The play instance ID.
      */
     var refreshBuffer = function(obj, loop, id) {
